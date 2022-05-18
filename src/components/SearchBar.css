@@ -1,0 +1,30 @@
+button{
+  background-color: hsl(0, 0%, 17%);
+  height: 56.4px;
+  width: 56.4px;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  transform: translateY(-0.2px);
+}
+
+button:hover{
+  background-color: hsl(0, 0%, 30%);
+}
+
+input[type = 'text']{
+
+  width: 40%;
+  padding: 15px 25px;
+  border-radius: 15px 0 0 15px;
+  border: none;
+  font-size: 18px;
+
+}
+
+input[type = 'text']::placeholder{
+  color: hsl(0, 0%, 59%);
+}
+
+input[type='text']:focus-visible{
+  outline: none;
+}
